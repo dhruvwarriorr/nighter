@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nighter"
+  short_description: "Syllabus-first study with adjustable depth and practice"
+  default_prompt: "Use $nighter to help me study my syllabus one topic at a time, with a plan that fits my time and practice preferences."

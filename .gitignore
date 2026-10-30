@@ -1,0 +1,13 @@
+# Publish the requested skill and its distributable; ignore other build output.
+/dist/*
+!/dist/nighter.zip
+
+# Source analysis, validation, and agent helper files.
+/.local/
+/.venv/
+/.agents/
+/.codex/
+/skills/
+**/__pycache__/
+*.py[cod]
+.DS_Store
