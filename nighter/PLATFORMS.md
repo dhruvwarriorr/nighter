@@ -1,5 +1,16 @@
 # Using Nighter
 
+## Start from the repository link
+
+In a chat that can read web links, send:
+
+```text
+Use https://github.com/dhruvwarriorr/nighter as my study tutor.
+Read its study instructions and start by asking for my syllabus.
+```
+
+The README routes the assistant to `nighter/SKILL.md` and the first unanswered intake question. Code agents that read `AGENTS.md` have the same entry point. These files guide a capable host; they cannot enable browsing or make every model activate a skill from a bare URL. If linked content cannot be read, use the normal-chat prompt below. Link-first activation has not been live-tested across all four platforms.
+
 ## Normal chats: ChatGPT, Codex, Claude, and Gemini
 
 No installation or custom assistant is needed for the normal-chat route.
